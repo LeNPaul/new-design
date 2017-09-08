@@ -1,0 +1,7 @@
+title: pl
+
+menu:
+- {name: 'About', url: 'about.html'}
+- {name: 'Projects', url: 'projects.html'}
+- {name: 'Blog', url: 'blog.html'}
+- {name: 'Contact', url: 'contact.html'}
