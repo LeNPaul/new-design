@@ -1,4 +1,8 @@
 title: pl
+tagline: Paul Le
+
+author:
+  name: Paul Le
 
 menu:
 - {name: 'About', url: 'about.html'}
