@@ -5,7 +5,7 @@ author:
   name: Paul Le
 
 menu:
-- {name: 'About', url: 'about.html'}
+- {name: 'About', url: ''}
 - {name: 'Projects', url: 'projects.html'}
 - {name: 'Blog', url: 'blog.html'}
 - {name: 'Contact', url: 'contact.html'}
