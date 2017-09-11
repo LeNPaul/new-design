@@ -2,3 +2,13 @@
 layout: page
 title: Projects
 ---
+
+<section>
+  <div class="project-container">
+    {% for project in site.data.settings.projects %}
+      <a href="{{ site.github.url }}/{{ project.file }}">
+        <p>{{ project.name }}</p>
+      </a>
+    {% endfor %}
+  </div>
+</section>
