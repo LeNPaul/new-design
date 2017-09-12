@@ -11,6 +11,6 @@ menu:
 - {name: 'Contact', url: 'contact.html'}
 
 projects:
-- {name: 'Physics in Motion', folder: 'proj-1', file: 'projects/physics-in-motion.html'}
-- {name: 'applepy', folder: 'proj-2', file: 'projects/applepy.html'}
-- {name: 'Jekyll Themes', folder: 'proj-3', file: 'projects/jekyll-themes.html'}
+- {name: 'Physics in Motion', image: 'run.jpg', file: 'projects/physics-in-motion.html'}
+- {name: 'applepy', image: 'gun.jpg', file: 'projects/applepy.html'}
+- {name: 'Jekyll Themes', image: 'box.jpg', file: 'projects/jekyll-themes.html'}

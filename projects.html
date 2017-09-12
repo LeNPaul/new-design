@@ -6,7 +6,7 @@ title: Projects
 <section>
   <div class="project-container">
     {% for project in site.data.settings.projects %}
-      <div class="project-unit" style="background-image: url({{ site.github.url }}/assets/img/run.jpg)">
+      <div class="project-unit" style="background-image: url({{ site.github.url }}/assets/img/{{ project.image }})">
         <a href="{{ site.github.url }}/{{ project.file }}">
         </a>
       </div>
