@@ -6,10 +6,11 @@ title: Projects
 <section>
   <div class="project-container">
     {% for project in site.data.settings.projects %}
-      <div class="project-unit" style="background-image: url({{ site.github.url }}/assets/img/{{ project.image }})">
-        <a href="{{ site.github.url }}/{{ project.file }}">
-        </a>
-      </div>
+      <a href="{{ site.github.url }}/{{ project.file }}">
+        <div class="project-unit" style="background-image: url({{ site.github.url }}/assets/img/{{ project.image }})">
+          
+        </div>
+      </a>
     {% endfor %}
   </div>
 </section>
