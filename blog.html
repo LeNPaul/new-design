@@ -8,6 +8,9 @@ title: Blog
     {% for post in site.posts %}
       <div class="blog-unit">
         <h1><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h1>
+        <a href="{{ site.github.url }}{{ post.url }}">
+          <p>{{ post.content | strip_html | truncate: 350 }}</p>
+        </a>
       </div>
     {% endfor %}
   </div>
