@@ -6,9 +6,11 @@ title: Projects
 <section>
   <div class="project-container">
     {% for project in site.data.settings.projects %}
-      <a href="{{ site.github.url }}/{{ project.file }}">
-        <p>{{ project.name }}</p>
-      </a>
+      <div class="project-unit">
+        <a href="{{ site.github.url }}/{{ project.file }}">
+          <div style="color: black; height: 350px; width: 750px;background-color: pink"><p>Project Placeholder</p></div>
+        </a>
+      </div>
     {% endfor %}
   </div>
 </section>
