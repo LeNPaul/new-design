@@ -16,8 +16,7 @@ projects:
 - {name: 'Jekyll Themes', image: 'box.jpg', file: 'projects/jekyll-themes.html', blurb: 'Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog.'}
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://www.instagram.com/paululele/'}
+- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/lenpaul/'}

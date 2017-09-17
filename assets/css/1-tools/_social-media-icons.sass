@@ -1,4 +1,4 @@
-$icon-transition-time: 1.0s
+$icon-transition-time: 0s
 $envelope-color: #f39c12
 $twitter-color: #00aced
 $instagram-color: #375989
@@ -11,6 +11,8 @@ $medium-color: #00AB6C
 $codepen-color: black
 
 @mixin social-media-icon($color, $transition)
+  margin-right: 10px
+  color: black
   -webkit-transition: $transition
   -o-transition: $transition
   -ms-transition: $transition
